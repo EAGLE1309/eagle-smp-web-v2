@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eagle SMP</title>
+    <link rel="stylesheet" href="style.scss">
+    <script src="https://kit.fontawesome.com/9e17a7170f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+
+    <section id="header">
+        <nav>
+            <img src="images/Logo.png" class="logo">
+            <div class="nav-links" id="nav-links">
+                <i class="fas fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="error.html">GALLERY</a></li>
+                    <li><a href="error.html">FAQs</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="show()"></i>
+        </nav>
+        <div class="head-text">
+            <h1>Eagle SMP</h1>
+            <span class="line-span"></span>
+            <p data-aos="fade-in"
+                data-aos-duration="1500">
+                Eagle SMP is an Minecraft Bedrock based server. It aims to provide you modded survival experience of minecraft.
+            </p>
+            <a href="#about" class="common-btn">Explore</a>
+        </div>
+    </section>
+
+    <!---About us--->
+
+    <section id="about">
+        <div class="about-text"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            >
+            <h1>About Us</h1>
+            <span class="line-span"></span>
+            <p>
+                Eagle SMP was created by <span class="Eagle">Eagle</span>. The main aim was to provide an modded experience of minecraft. Eagle SMP tries to put more challenging gameplay for player with vibe of vanilla minecraft.
+            </p>
+        </div>
+        <div class="about-row"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            >
+            <div class="about-col">
+                <img src="images/discord.png">
+                <br>
+                <span class="line-span"></span>
+
+                <h1>Discord</h1>
+                <a href="https://discord.gg/qqX3x7w9hB" class="common-btn">Join Now</a>
+            </div>
+            <div class="about-col">
+                <img src="images/ann.png"><br>
+                <span class="line-span"></span>
+
+                <h1>Announcements</h1>
+                <a href="#header" class="common-btn" id="active">Check</a>
+            </div>
+            <div class="about-col">
+                <img src="images/add.png"><br>
+                <span class="line-span"></span>
+                <h1>Add Server</h1>
+                <a href="minecraft://?addExternalServer=§aEagleSMP|play.eagleop.tk:33071" class="common-btn">Add Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!---Contact Us--->
+
+    <section id="contact">
+        <div class="contact-cont">
+            <h1>contact us</h1>
+            <span class="line-span"></span>
+            <form
+                action="https://formspree.io/f/xgerbkeg"
+                method="POST"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                >
+                <input type="text" name="username" placeholder="Enter Your Name">
+                <input type="email" name="_replyto" placeholder="Enter Email">
+                <input class="describe" type="text" name="Description" placeholder="Describe your issue">
+                <div class="form-btn">
+                    <button class="common-btn" type="submit">Send Us</button>
+                    <button class="common-btn" type="button">Discord</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!---footer--->
+    <hr>
+    <section id="footer">
+        <div class="footer-row">
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="links-title">
+                        <h4>Our Socials</h4>
+                        <a href="discord">Discord</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                    <div class="links-title">
+                        <h4>About Us</h4>
+                        <a href="#">Status</a>
+                        <a href="#">Vote Us</a>
+                        <a href="#">Our Story</a>
+                    </div>
+                    <div class="links-title">
+                        <h4>Mcraft Info</h4>
+                        <a href="#">Download</a>
+                        <a href="#">Changelogs</a>
+                        <a href="#">Updates</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right-col">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="images/logo.png">
+                    </div>
+                    <div class="copyright-text">
+                        <small>eaglebusiness00@gmail.com</small><br>
+                        <small>©copyright 2021</small>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---JavaScript--->
+    <script>
+
+        //For SmoothScroll Animation
+
+        AOS.init();
+
+        //for menu bar
+
+        var nav = document.getElementById("nav-links");
+
+        function hide() {
+            nav.style.right = "-200px";
+        }
+        function show() {
+            nav.style.right = "5";
+        }
+
+        //for page navigation
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
+
+</body>
+</html>

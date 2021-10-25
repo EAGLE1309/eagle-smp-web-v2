@@ -10,7 +10,7 @@ So I choosed my own SMP's website and redesigned it. It's a responsive website m
 `This website was created on android`
 
 ### Preview:
-[Live preview of this project](https://eagle1309.github.io/eagle-smp-web-v2/)
+[Live preview of this project](https://eagle-smp.netlify.app/)
 
 ### Screenshots:
 `Will be there soon...`

@@ -1,10 +1,16 @@
 //for menu bar
 
-var nav = document.getElementById("nav-links");
+const nav = document.getElementById("nav-links");
+const cross = document.getElementById("cross");
+const menu = document.getElementById("menu");
 
-        function hide() {
-            nav.style.right = "-200px";
-        }
-        function show() {
-            nav.style.right = "5";
-        }
+cross.addEventListener("click", hide)
+
+function hide() {
+    nav.style.right = "-200px";
+};
+
+menu.addEventListener("click", show)
+function show() {
+    nav.style.right = "5";
+};

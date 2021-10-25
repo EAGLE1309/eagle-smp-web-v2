@@ -16,4 +16,4 @@ So I choosed my own SMP's website and redesigned it. It's a responsive website m
 `Will be there soon...`
 
 ### Made by Eagle!
-![madeByEagle](https://socialify.git.ci/EAGLE1309/eagle-smp-web-v2/image?description=1&descriptionEditable=A%20simple%20animated%20neumorphism%20stats%20bar&font=Inter&language=1&owner=1&pattern=Charlie%20Brown&theme=Dark)
+![madeByEagle](https://socialify.git.ci/EAGLE1309/eagle-smp-web-v2/image?description=1&font=Inter&language=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)

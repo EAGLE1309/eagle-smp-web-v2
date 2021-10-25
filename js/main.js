@@ -12,5 +12,5 @@ function hide() {
 
 menu.addEventListener("click", show)
 function show() {
-    nav.style.right = "5";
+    nav.style.right = "5px";
 };

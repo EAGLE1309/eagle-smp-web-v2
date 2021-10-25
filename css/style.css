@@ -29,9 +29,10 @@ section {
     text-align: center;
 }
 h1 {
-    font-size: 35px;
+    font-size: 37px;
     color: #fff;
-    font-family: 'Akira Expanded', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 .line-span {
     height: 8px;
@@ -268,7 +269,7 @@ hr {
 
 @media (max-width: 788px) {
     h1 {
-        font-size: 25px;
+        font-size: 27px;
     }
     .line-span {
         height: 5px;

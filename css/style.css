@@ -18,7 +18,7 @@ section {
 #header {
     min-height: 100vh;
     max-width: 100%;
-    background: url(images/background.png);
+    background: url(../images/background.png);
     background-size: cover;
     background-position: center;
     position: relative;

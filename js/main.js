@@ -15,7 +15,6 @@ menu.addEventListener("click", show)
 function show() {
     nav.style.right = "5px";
 }
-
 cross.addEventListener("click", hide)
 navText.addEventListener("click", hide)
 

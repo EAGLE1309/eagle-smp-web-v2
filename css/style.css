@@ -130,7 +130,7 @@ nav {
 nav .fas {
     display: none;
 }
-//----About Us----
+/*----About Us----*/
 #about {
     display: flex;
     align-items: center;
@@ -315,10 +315,11 @@ hr {
         background: #fece04;
         height: 100vh;
         width: 200px;
-        position: absolute;
+        position: fixed;
         top: 0;
         display: block;
         right: -200px;
+        border-radius: 12px;
         text-align: left;
         transition: 0.5s;
     }

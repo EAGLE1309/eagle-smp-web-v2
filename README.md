@@ -2,6 +2,9 @@
 
 Hi guys today I have created a responsive website in HTML, CSS and JavaScript make sure to check this out!
 
+[![CodeFactor](https://www.codefactor.io/repository/github/eagle1309/eagle-smp-web-v2/badge/main)](https://www.codefactor.io/repository/github/eagle1309/eagle-smp-web-v2/overview/main)
+
+
 ### About this Project:
 Recently I practiced html css and JavaScript and decided to create a responsive website with better ui design.
 So I choosed my own SMP's website and redesigned it. It's a responsive website means fully functional on every device!
